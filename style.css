@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100% !important;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1.7em 0 0.7em;
+    text-transform: uppercase;
+    font-family: "Cormorant Infant";
+    font-size: 20px; 
+}
+
+ul {
+    display: flex;
+    max-width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+    height: 22px;
+}
+
+.logo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    position: relative;
+    top: -30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+
+
+.photo img {
+    width: 100%;
+}
+
+hr {
+    font-family: Arial, sans-serif; /* choose the font you like */
+    text-align: center; /* horizontal centering */
+    line-height: 1px; /* vertical centering */
+    height: 0; /* gap between the lines */
+    font-size: 1em; /* choose font size you like */
+    border-width: 1px 0; /* top and bottom borders */
+    border-style: solid;
+    border-color: #454545;
+    margin: 20px 10px; /* 20px space above/below, 10px left/right */
+    overflow: visible;
+  
+    /* ensure 1px gap between borders */
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  
+
+  
+  /* opera doesn't render correctly. hide section sign */
+  x:-o-prefocus, hr:after {
+    content: "";
+  }
+
+  .hr-theme-slash-2 {
+    display: flex;
+  }
+    
+    .hr-line {
+      width: 100%;
+      position: relative;
+      margin: 50px 0;
+      border-bottom: 2px solid #454545;
+    }
+    .hr-icon {
+      position: relative;
+      top: 38px;
+      color: #454545;
+      background-color: #fff;
+      padding: 0 0.75em;
+      font-size: 1.5em;
+      height: 1.75em;
+    }
+
+    .welcome {
+        display: flex;
+        padding: 1em 5%;
+    }
+
+    .welcome-text {
+        padding: 0 5em 0 0;
+        line-height: 2;
+        font-size: 20px;
+    }
+
+    .profile-photo {
+        min-width: 300px;
+        height: auto;
+        border-radius: 100%;
+        background-color: #ccc;
+        border: 6px solid #fce5d5;
+    }
+
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact {
+        font-family: "Cormorant Infant";
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .card {
+        padding: 5px;
+        background-color: #fce5d5;
+        display: inline-block;
+        text-align: center;
+        min-width: 30%;
+        margin: 5px;
+        border-radius: 5px;
+        font-family: "Cormorant Infant";
+        font-size: 20px;
+    }
+
+    .card-pic {
+        background-color: #cccccc;
+        width: 100%;
+        height: 200px;
+        
+    }
+
+    .card-text {
+        padding: 0.6em 0 0.3em;
+        text-transform: uppercase;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    label, input, textarea {
+        display: block;
+        width: 40%;
+    }
+
+    label {
+        margin-top: 1em;
+    }
+
+    input, textarea {
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    form {
+        margin: 2em 0;
+    }
+
+    button {
+        margin: 2em 0;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color: #fff;
+        font-family: "Cormorant Infant";
+        font-size: 20px;
+    }
+
+    footer {
+        background-color: #fce5d5;
+        clear: both;
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+        font-family: "Cormorant Infant";
+    }
+
+    footer p {
+        padding: 1.2em;
+        font-size: 1.2em;
+    }
+
+    .about {
+        margin-top: 120px;
+    }
+
+    .page-heading {
+        position: relative;
+        background-color: #ffffff;
+        top: -1em;
+        left: 1em;
+        display: inline;
+        padding: 0 0.3em;
+        font-family: "Cormorant Infant";
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    .profile-heading {
+        font-family: "Courgette";
+        font-size: 25px;
+        margin-bottom: 1em;
+    }
+
+
+    .profile-text {
+        font-family: "Courgette";
+        font-size: 20px;
+        line-height: 1.4;
+        max-width: 100%;
+        display: inline;
+    }
+
+    .left {
+        float: left;
+        width: 250px;
+        margin: 0 2em 2em 0;
+    }
+
+    .right {
+        float: right;
+        width: 250px;
+        margin: 0 0 2em 2em;
+    }
+ 
+        .name-right {
+            text-align: right;
+        }
