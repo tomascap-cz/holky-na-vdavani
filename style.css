@@ -401,3 +401,52 @@ hr {
      .service-photo-container img {
          width: 45%;
      }
+
+     .grid {
+         border: 1px solid red;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 1em;
+         min-height: 200px;
+         margin: 2em 0;
+     }
+
+     .grid-item {
+        background-color: #bbbbbb;
+        min-width: 30%;
+        min-height: 300px;
+     }
+
+     .card-mock {
+        background-color: #cccccc;
+        width: 300px;
+        height: 200px;
+        
+    }
+
+    .reflink {
+        color: inherit;
+        display: contents;
+        text-decoration: none;
+    }
+
+    .ref-title-image {
+        width: 100%;
+    }
+
+    .detail {
+        margin-bottom: 3em;
+    }
+
+    .btn-back {
+        padding: 0.5em 1em;
+        background-color: #fff;
+        color: #000;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 1em 0;
+    }
+
+    .back-btn {
+        margin-bottom: 3em;
+    }
